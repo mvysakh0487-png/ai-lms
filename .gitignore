@@ -18,3 +18,21 @@ datasets/
 # IDE
 .vscode/
 .idea/
+
+# Uploads
+backend/uploads/
+
+# Videos & PDFs
+*.pdf
+*.mp4
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Frontend nested git
+frontend/.git
