@@ -1,0 +1,32 @@
+.instructor-dashboard {
+  padding: 24px;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.kpi-card {
+  background: #14141d;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.kpi-card.blue { border-left: 4px solid #6366f1; }
+.kpi-card.green { border-left: 4px solid #22c55e; }
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.chart-card {
+  background: #14141d;
+  padding: 20px;
+  border-radius: 12px;
+}

@@ -1,0 +1,59 @@
+.admin-dashboard {
+  padding: 24px;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.kpi-card {
+  padding: 20px;
+  border-radius: 14px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.kpi-card h3 {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.kpi-card p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.blue { background: linear-gradient(135deg, #4f46e5, #6366f1); }
+.green { background: linear-gradient(135deg, #22c55e, #4ade80); }
+.yellow { background: linear-gradient(135deg, #f59e0b, #fbbf24); }
+.purple { background: linear-gradient(135deg, #9333ea, #a855f7); }
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.chart-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.loading {
+  padding: 40px;
+}
+
+.big-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.subtext {
+  color: #666;
+}

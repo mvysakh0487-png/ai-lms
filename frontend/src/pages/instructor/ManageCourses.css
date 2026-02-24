@@ -1,0 +1,100 @@
+.manage-courses {
+  padding: 30px;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.page-subtitle {
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+.empty-state {
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  text-align: center;
+  color: #aaa;
+}
+
+/* GRID */
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.content-card {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.02)
+  );
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* HEADER */
+.content-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.badge.pdf {
+  background: #ef4444;
+}
+.badge.video {
+  background: #6366f1;
+}
+.badge.link {
+  background: #22c55e;
+}
+.badge.text {
+  background: #f59e0b;
+}
+
+/* TITLE */
+.content-title {
+  margin: 16px 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* BUTTON */
+.view-btn {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #a855f7;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.view-btn:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.content-footer {
+  font-size: 12px;
+  color: #9ca3af;
+}

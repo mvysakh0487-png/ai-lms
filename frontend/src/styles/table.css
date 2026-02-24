@@ -1,0 +1,52 @@
+.table-card {
+  background: #14141d;
+  border-radius: 14px;
+  padding: 22px;
+  margin-top: 24px;
+}
+
+.table-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  font-size: 13px;
+  color: #a1a1aa;
+  padding-bottom: 12px;
+}
+
+td {
+  padding: 14px 0;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  font-size: 14px;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge.high {
+  background: rgba(239,68,68,0.2);
+  color: #ef4444;
+}
+
+.badge.medium {
+  background: rgba(250,204,21,0.2);
+  color: #facc15;
+}
+
+.badge.low {
+  background: rgba(34,197,94,0.2);
+  color: #22c55e;
+}

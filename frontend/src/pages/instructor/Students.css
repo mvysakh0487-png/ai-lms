@@ -1,0 +1,43 @@
+.students-page {
+  background: linear-gradient(145deg, #0f0f1a, #07070c);
+  padding: 30px;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.students-page h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.students-page table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.students-page th,
+.students-page td {
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.students-page th {
+  color: #b3b3ff;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.students-page tr {
+  transition: background 0.2s ease;
+}
+
+.students-page tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.students-page td {
+  color: #eaeaff;
+}

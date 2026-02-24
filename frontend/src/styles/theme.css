@@ -1,0 +1,55 @@
+:root {
+  --bg-main: #0b0b12;
+  --bg-card: #14141d;
+  --bg-soft: #1b1b26;
+
+  --purple: #8b5cf6;
+  --purple-glow: linear-gradient(135deg, #7c3aed, #9333ea);
+
+  --green: #22c55e;
+  --yellow: #facc15;
+  --red: #ef4444;
+
+  --text-main: #ffffff;
+  --text-muted: #a1a1aa;
+}
+
+body {
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-family: "Inter", system-ui, sans-serif;
+}/* ===== File Upload Theme Fix ===== */
+
+input[type="file"] {
+  color: var(--text-main);
+  background: transparent;
+  font-size: 14px;
+}
+
+/* Chrome / Edge / Brave */
+input[type="file"]::-webkit-file-upload-button {
+  background: var(--purple-glow);
+  color: var(--text-main);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  opacity: 0.9;
+}
+
+/* Firefox */
+input[type="file"]::file-selector-button {
+  background: var(--purple-glow);
+  color: var(--text-main);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 10px;
+}

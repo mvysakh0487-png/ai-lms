@@ -1,0 +1,92 @@
+.topbar {
+  height: 64px;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;        /* 🔥 KEY FIX */
+  justify-content: space-between;
+
+  background: linear-gradient(
+    to right,
+    rgba(139, 92, 246, 0.12),
+    rgba(0, 0, 0, 0)
+  );
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.topbar-left h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Right section container */
+.topbar-right {
+  display: flex;
+  align-items: center;        /* 🔥 ALIGN EVERYTHING */
+  gap: 14px;
+}
+
+/* Role badge */
+.role-badge {
+  padding: 6px 14px;
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  background: var(--purple-glow);
+  color: white;
+
+  line-height: 1;             /* 🔥 IMPORTANT */
+  display: flex;
+  align-items: center;
+}
+
+/* Profile container */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Avatar */
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--bg-soft);
+  color: var(--purple);
+
+  font-weight: bold;
+}
+
+/* Logout button */
+.logout-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+
+  background: transparent;
+  border: 1px solid var(--purple);
+  color: var(--purple);
+
+  font-size: 12px;
+  font-weight: 500;
+
+  cursor: pointer;
+  line-height: 1;             /* 🔥 FIX */
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn:hover {
+  background: var(--purple);
+  color: white;
+}

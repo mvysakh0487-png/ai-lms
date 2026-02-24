@@ -1,0 +1,79 @@
+.landing {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3a0ca3, #7209b7);
+  color: white;
+  padding: 40px 80px;
+  font-family: "Inter", sans-serif;
+}
+
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.hero {
+  margin-top: 100px;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1.1;
+}
+
+.hero span {
+  color: #c77dff;
+}
+
+.hero p {
+  margin: 25px 0;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.cta-btn {
+  background: #7b2cbf;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+}
+
+.stats {
+  display: flex;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.stats h2 {
+  font-size: 36px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  font-size: 18px;
+}

@@ -1,0 +1,80 @@
+.progress-page {
+  padding: 30px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-bottom: 25px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.stat-card .icon {
+  font-size: 26px;
+}
+
+.charts-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.chart-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 120px;
+}
+
+.bar {
+  width: 18px;
+  background: linear-gradient(#8b5cf6, #9333ea);
+  border-radius: 6px;
+}
+
+.achievement-box,
+.completed-box {
+  margin-top: 30px;
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.achievement {
+  padding: 10px;
+  background: var(--bg-soft);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.completed-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.completed-row button {
+  background: var(--purple);
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+}

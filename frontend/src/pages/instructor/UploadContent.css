@@ -1,0 +1,80 @@
+.upload-container {
+  padding: 30px;
+  color: #fff;
+}
+
+.upload-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.upload-subtitle {
+  color: #aaa;
+  margin-bottom: 25px;
+}
+
+/* Card layout */
+.upload-card {
+  background: linear-gradient(145deg, #121212, #1a1a1a);
+  border-radius: 14px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 30px rgba(128, 0, 255, 0.15);
+}
+
+/* Inputs */
+.upload-card input,
+.upload-card textarea,
+.upload-card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  background: #0e0e0e;
+  color: #fff;
+  outline: none;
+}
+
+.upload-card textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+/* Upload button */
+.upload-btn {
+  background: linear-gradient(135deg, #7b2ff7, #9f5cff);
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.upload-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(159, 92, 255, 0.7);
+}
+
+/* Uploaded list */
+.uploaded-list {
+  margin-top: 20px;
+}
+
+.uploaded-item {
+  background: #111;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uploaded-type {
+  font-size: 13px;
+  color: #b983ff;
+}
